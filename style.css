@@ -1,0 +1,16 @@
+@font-face{
+    font-family: iranMarker;
+    src: url(./fonts/IRANMarker.ttf);
+}
+@font-face{
+    font-family: iransansbold;
+    src: url(./fonts/IRANSans_Bold.ttf);
+}
+@font-face{
+    font-family: iransansadi;
+    src: url(fonts/IRANSans_Medium.ttf);
+}
+@font-face{
+    font-family: iransanslight;
+    src: url(fonts/IRANSans_Light.ttf);
+}
