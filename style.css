@@ -32,10 +32,25 @@ body{
     display: flex;
     justify-content: flex-end;
     width: 15%;
-    background-color: rgb(255, 252, 247);
+    background-color: rgb(255, 253, 250);
 }
 .main-box{
     justify-content: start;
     width: 85%;
-    background-color: #f3eded;
+    background-color: #f8f4f4;
+}
+.main-box-top{
+    height: 17vh;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around ;
+}
+.main-box-top-obj{
+    display: flex;
+    height: 12vh;
+    width: 20% ;
+    margin-top:1.2rem ;
+    background-color:#f7f7f7;
+    border-radius: 0.6rem;
+    box-shadow:1rem 1rem 3rem 0.7rem rgba(128, 128, 128, 0.753);
 }
