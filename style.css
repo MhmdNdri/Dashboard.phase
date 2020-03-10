@@ -14,3 +14,28 @@
     font-family: iransanslight;
     src: url(fonts/IRANSans_Light.ttf);
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: iransansadi;
+    font-size: 63.5%;
+    border: 1px black solid;
+    margin: 0 4rem 0 4rem;
+    display: flex;
+    direction: rtl;
+}
+.dashboard{
+    display: flex;
+    justify-content: flex-end;
+    width: 15%;
+    background-color: rgb(255, 252, 247);
+}
+.main-box{
+    justify-content: start;
+    width: 85%;
+    background-color: #f3eded;
+}
