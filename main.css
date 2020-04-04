@@ -1,0 +1,295 @@
+@font-face {
+  font-family: iranMarker;
+  src: url(./fonts/IRANMarker.ttf);
+}
+
+@font-face {
+  font-family: iransansbold;
+  src: url(./fonts/IRANSans_Bold.ttf);
+}
+
+@font-face {
+  font-family: iransansadi;
+  src: url(fonts/IRANSans_Medium.ttf);
+}
+
+@font-face {
+  font-family: iransanslight;
+  src: url(fonts/IRANSans_Light.ttf);
+}
+
+.top__container {
+  height: 17%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.top__container-items {
+  width: 25%;
+  margin: 2.3rem 1.9rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+}
+
+.top__container-items-left1 {
+  width: 27%;
+  height: 100%;
+  float: left;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#805fe4), to(#6071e3));
+  background-image: linear-gradient(to bottom, #805fe4, #6071e3);
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.top__container-items-left2 {
+  width: 27%;
+  height: 100%;
+  float: left;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fdc53d), to(#f09b1c));
+  background-image: linear-gradient(to bottom, #fdc53d, #f09b1c);
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.top__container-items-left3 {
+  width: 27%;
+  height: 100%;
+  float: left;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f3487f), to(#ec4451));
+  background-image: linear-gradient(to bottom, #f3487f, #ec4451);
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.top__container-items-left4 {
+  width: 27%;
+  height: 100%;
+  float: left;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#21c6f6), to(#607efd));
+  background-image: linear-gradient(to bottom, #21c6f6, #607efd);
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.top__container-items-img {
+  height: 30%;
+  width: 60%;
+  margin: 45% 20%;
+}
+
+.top__container-items-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  float: right;
+  margin: 1rem 3rem;
+}
+
+.top__container-items-right-p {
+  color: #afafaf;
+  font-size: 1.5rem;
+  font-family: iransansadi;
+  margin-bottom: 1rem;
+}
+
+.top__container-items-right-num {
+  color: #000000;
+  font-size: iransansbold;
+  font-size: 3rem;
+}
+
+.top__container-items-right-p1 {
+  color: #afafaf;
+  font-size: 1.3rem;
+}
+
+.mid__container {
+  height: 44%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mid__container-right {
+  width: 60%;
+  height: 98%;
+  margin: 2rem;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#8b60e3), to(#5e67e5));
+  background-image: linear-gradient(to right bottom, #8b60e3, #5e67e5);
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.mid__container-left {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  width: 40%;
+  height: 98%;
+  margin: 2rem;
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.down__container {
+  height: 34%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.down__container-right {
+  width: 60%;
+  height: 97%;
+  margin: 2rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  margin-top: 3rem;
+}
+
+.down__container-left {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  width: 40%;
+  height: 97%;
+  margin: 2rem;
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  margin-top: 3rem;
+}
+
+.span-num {
+  color: #7469e8;
+  font-family: iransanslight;
+  font-size: 2rem;
+}
+
+.dashboard__clock {
+  height: 20%;
+}
+
+.dashboard__clock-img {
+  width: 100%;
+  height: 90%;
+}
+
+.dashboard__profile {
+  height: 15%;
+  position: relative;
+}
+
+.profile-pic {
+  position: absolute;
+  height: 5rem;
+  width: 5rem;
+  top: 0rem;
+  right: 3rem;
+  display: inline-block;
+}
+
+.profile-pic-item {
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+  height: 100%;
+  width: 100%;
+}
+
+.profile-name {
+  position: absolute;
+  top: 0rem;
+  right: 10rem;
+  color: black;
+  font-size: 1.5rem;
+  font-family: iransansbold;
+}
+
+.profile-span {
+  position: absolute;
+  top: 3rem;
+  right: 11rem;
+  color: #afafaf;
+}
+
+.dashboard-stuff {
+  height: 55%;
+  width: 100%;
+}
+
+.dashboard-stuff-img {
+  width: 100%;
+  height: 70%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: iransansadi;
+  direction: rtl;
+}
+
+.main {
+  height: 100vh;
+  margin: 0 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main__dashboard {
+  width: 16%;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main__container {
+  width: 84%;
+  background-color: #f5f5f5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=main.css.map */
